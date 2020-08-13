@@ -113,7 +113,7 @@ function resizeCanvas(){
 }
 
 window.addEventListener("resize", resizeCanvas);
-document.getElementById("cannon").addEventListener("click", () => {fireCannon(canvas.width/2, canvas.height/2)});
+document.getElementById("cannon").addEventListener("click", () => {fireCannon(canvas.width/2, canvas.height/2);});
 canvas.addEventListener("click", stopAnimation);
 
 resizeCanvas();
